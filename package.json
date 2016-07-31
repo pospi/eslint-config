@@ -1,7 +1,7 @@
 {
-  "name": "@pospi/config-eslint",
+  "name": "eslint-config-pospi",
   "version": "1.0.0",
-  "description": "Opinionated eslint config for JavaScript projects",
+  "description": "Opinionated eslint config for personal (& sometimes work) JavaScript projects",
   "main": "eslintrc.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/pospi/eslint-config/issues"
   },
-  "homepage": "https://github.com/pospi/eslint-config#readme"
+  "homepage": "https://github.com/pospi/eslint-config#readme",
+  "dependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint-plugin-flowtype": "^2.4.0",
+    "eslint-plugin-react": "^5.2.2"
+  }
 }
