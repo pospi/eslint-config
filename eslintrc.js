@@ -1,4 +1,4 @@
-{
+module.exports = {
   "parser": "babel-eslint",
 
   "env": {
@@ -238,7 +238,7 @@
     "react/jsx-uses-react": 0,
     "react/jsx-uses-vars": 1,
     "react/no-danger": 0,
-    "react/no-did-mount-set-state": [1, 'allow-in-func'],
+    "react/no-did-mount-set-state": [1, "allow-in-func"],
     "react/no-did-update-set-state": 1,
     "react/no-direct-mutation-state": 1,
     "react/no-multi-comp": 0,
@@ -270,7 +270,7 @@
     "indent": 0,    // :NOTE: indentation controlled by .editorconfig
     "newline-after-var": 0,
     "padded-blocks": 0,
-    "no-multi-spaces": [1, { exceptions: { "VariableDeclarator": true, "ImportDeclaration": true, "Property": true } }],
+    "no-multi-spaces": [1, { "exceptions": { "VariableDeclarator": true, "ImportDeclaration": true, "Property": true } }],
 
     "dot-notation": 0,  // don't force dot notation, convention for dynamic property access using `[]` syntax vs. static access using `.`
     "eqeqeq": [1, "smart"],
@@ -293,14 +293,14 @@
     // react conventions
     "react/jsx-boolean-value": [1, "always"],
     "react/sort-comp": [1, {
-      order: [
-        '/^props$/',
-        '/^state$/',
-        'lifecycle',
-        'render',
-        '/^render.+$/',
-        '/^_?on.+$/',
-        'everything-else'
+      "order": [
+        "/^props$/",
+        "/^state$/",
+        "lifecycle",
+        "render",
+        "/^render.+$/",
+        "/^_?on.+$/",
+        "everything-else"
       ]
     }],
     "react/jsx-no-bind": 0,
