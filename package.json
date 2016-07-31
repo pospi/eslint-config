@@ -1,0 +1,23 @@
+{
+  "name": "@pospi/config-eslint",
+  "version": "1.0.0",
+  "description": "Opinionated eslint config for JavaScript projects",
+  "main": "eslintrc.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pospi/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "configuration"
+  ],
+  "author": "pospi",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/pospi/eslint-config/issues"
+  },
+  "homepage": "https://github.com/pospi/eslint-config#readme"
+}
