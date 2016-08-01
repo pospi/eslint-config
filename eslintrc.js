@@ -204,7 +204,7 @@ module.exports = {
     "no-class-assign": 0,
     "no-const-assign": 2,
     "no-this-before-super": 2,
-    "no-var": 0,
+    "no-var": 1,
     "prefer-const": 1,
     "prefer-spread": 1,
     "prefer-reflect": 0,
