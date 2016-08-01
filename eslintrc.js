@@ -137,7 +137,7 @@ module.exports = {
     "no-shadow": 1,
     "no-undef-init": 1,
     "no-undef": 2,
-    "no-undefined": 2,
+    "no-undefined": 0,
 
     /**
      * Node.js
