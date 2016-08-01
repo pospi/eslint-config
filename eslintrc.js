@@ -290,6 +290,15 @@ module.exports = {
 
     "no-multiple-empty-lines": 0,
 
+    // flow
+    "flowtype/define-flow-type": 1,
+    "flowtype/use-flow-type": 1,
+    "flowtype/space-after-type-colon": [1, "always"],
+    "flowtype/space-before-type-colon": [1, "never"],
+    // enabling this means you have to exhaustively declare types instead of being able to define cascading defs
+    "flowtype/require-parameter-type": 0,
+    "flowtype/require-return-type": 0,
+
     // react conventions
     "react/jsx-boolean-value": [1, "always"],
     "react/sort-comp": [1, {
