@@ -136,7 +136,7 @@ module.exports = {
     "no-shadow-restricted-names": 1,
     "no-shadow": 1,
     "no-undef-init": 1,
-    "no-undef": 2,
+    "no-undef": 0,
     "no-undefined": 0,
 
     /**
