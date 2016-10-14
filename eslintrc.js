@@ -200,7 +200,7 @@ module.exports = {
     "arrow-parens": 0,
     "arrow-spacing": 1,
     "constructor-super": 1,
-    "generator-star-spacing": [1, {"before": false, "after": false}],
+    "generator-star-spacing": [1, {"before": false, "after": true}],
     "no-class-assign": 0,
     "no-const-assign": 2,
     "no-this-before-super": 2,
