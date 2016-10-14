@@ -226,7 +226,7 @@ module.exports = {
     "react/display-name": 0,
     "react/forbid-prop-types": [1, {"forbid": ["any"]}],
     "react/jsx-closing-bracket-location": 0,
-    "react/jsx-curly-spacing": [1, "always"],
+    "react/jsx-curly-spacing": [1, "never"],
     "react/jsx-indent-props": 0,
     "react/jsx-max-props-per-line": 0,
     "react/jsx-no-duplicate-props": 1,
