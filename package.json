@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pospi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Opinionated eslint config for personal (& sometimes work) JavaScript projects",
   "main": "eslintrc.js",
   "scripts": {
