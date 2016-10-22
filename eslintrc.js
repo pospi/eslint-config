@@ -238,7 +238,7 @@ module.exports = {
     "react/jsx-uses-react": 0,
     "react/jsx-uses-vars": 1,
     "react/no-danger": 0,
-    "react/no-did-mount-set-state": [1, "allow-in-func"],
+    "react/no-did-mount-set-state": 1,
     "react/no-did-update-set-state": 1,
     "react/no-direct-mutation-state": 1,
     "react/no-multi-comp": 0,
