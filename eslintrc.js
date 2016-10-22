@@ -235,7 +235,7 @@ module.exports = {
     "react/jsx-quotes": 0,
     "react/jsx-sort-prop-types": 0,
     "react/jsx-sort-props": 0,
-    "react/jsx-uses-react": 0,
+    "react/jsx-uses-react": 1,
     "react/jsx-uses-vars": 1,
     "react/no-danger": 0,
     "react/no-did-mount-set-state": 1,
