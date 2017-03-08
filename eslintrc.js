@@ -259,7 +259,7 @@ module.exports = {
     // code quality
     "no-global-strict": 0,
     "strict": 0,
-    "no-unused-vars": [2, {"vars": "all", "args": "none"}],
+    "no-unused-vars": [2, {"vars": "all", "args": "after-used", "ignoreRestSiblings": true}],
     "no-use-before-define": [2, "nofunc"],
     "one-var": [1, {
         "uninitialized": "always",
