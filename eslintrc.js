@@ -1,5 +1,6 @@
 module.exports = {
   "parser": "babel-eslint",
+  "extends": ["standard"],
 
   "env": {
     "browser": 1,
@@ -59,7 +60,7 @@ module.exports = {
     "no-ex-assign": 1,
     "no-extra-boolean-cast": 1,
     "no-extra-parens": 0,
-    "no-extra-semi": 1,
+    // "no-extra-semi": 1,
     "no-func-assign": 1,
     "no-inner-declarations": 0,
     "no-invalid-regexp": 1,
@@ -183,8 +184,8 @@ module.exports = {
     "no-unneeded-ternary": 1,
     "operator-assignment": 0,
     "operator-linebreak": 0,
-    "semi-spacing": 1,
-    "semi": 1,
+    // "semi-spacing": 1,
+    // "semi": 1,
     "sort-vars": 0,
     "keyword-spacing": [1, { "after": true }],
     "space-before-blocks": 1,
